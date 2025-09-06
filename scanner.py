@@ -30,7 +30,7 @@ def print_banner():
     print(BANNER)
     print(Fore.CYAN + "Non-Rooted Recon Tool | Powered by DARK\n")
 
-# --- Device Discovery (Non-Root) ---
+
 def ping_device(ip):
     try:
         result = subprocess.run(["ping", "-c", "1", "-W", "1", ip],
@@ -56,7 +56,7 @@ def network_scan(base_ip):
             devices.append(device)
     return devices
 
-# --- Parallel Port Scan ---
+
 def scan_port(ip, port, results):
     try:
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
