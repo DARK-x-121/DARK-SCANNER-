@@ -19,4 +19,4 @@ This tool lets you:
 - Export results to **JSON & HTML reports** 🌐
 - Use it **completely without root access** 🚀
 
-> **Made with ❤️ by GlitchWareX | By Amit @ DARK**
+> **Made with DARK | By Amit @ DARK**
